@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InetBankingV9]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.inetBanking.Utilities.Reporting"/>
+  </listeners>
+  <test name="BankingApp Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetBanking.TestCases.TC_LoginTest_001"/>
+    </classes>
+  </test> <!-- BankingApp Test -->
+</suite> <!-- Failed suite [InetBankingV9] -->
